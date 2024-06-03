@@ -1,15 +1,16 @@
 <script>
 	import '../app.css';
-	import '$lib/Components/Header.svelte';
 	import Header from '$lib/Components/Header.svelte';
+	import Footer from '$lib/Components/Footer.svelte';
+	import Hero from '$lib/Components/Hero.svelte';
 </script>
 
-<div class="app">
-	<main>
-		<slot />
-	</main>
-	<Header />
-</div>
+<Header />
+<main>
+	<Hero />
+	<slot />
+</main>
+<Footer />
 
 <style>
 </style>
