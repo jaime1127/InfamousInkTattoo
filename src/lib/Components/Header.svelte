@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { fly } from "svelte/transition";
-	import goldrust from '$lib/images/logo/goldrust.jpg'
+	import { fly } from 'svelte/transition';
+	import goldrust from '$lib/images/logo/goldrust.jpg';
 
 	let items = [
 		{ label: 'Locations', href: '/locations' },
 		{ label: 'Artists', href: '/artists' },
-		{ label: 'Information', href: '/information' },
+		{ label: 'Portfolio', href: '/portfolio' },
 		{ label: 'About Us', href: '/aboutus' }
 	];
 
@@ -20,11 +20,7 @@
 	<nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
 		<div class="flex lg:flex-1 rounded-full">
 			<a href="/" class="-m-1.5 p-1.5">
-				<img
-					class="h-8 w-auto rounded-full"
-					src={goldrust}
-					alt="infamousInk"
-				/>
+				<img class="h-8 w-auto rounded-full" src={goldrust} alt="infamousInk" />
 			</a>
 		</div>
 		<div class="hidden lg:flex lg:gap-x-12 lg:justify-end">
@@ -37,18 +33,28 @@
 				>Contact Us <span aria-hidden="true">&rarr;</span></a
 			>
 		</div>
-		<button type="button" class="lg:hidden" on:click={toggleMenu}>
+		<button type="button" class="lg:hidden text-gray-300 hover:text-white" on:click={toggleMenu}>
 			<span class="sr-only">Open menu</span>
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-				<path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
-			  </svg>
-			  
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				class="size-6"
+			>
+				<path
+					fill-rule="evenodd"
+					d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+					clip-rule="evenodd"
+				/>
+			</svg>
 		</button>
 	</nav>
 	{#if isMenuOpen}
 		<div class="lg:hidden" role="dialog" aria-modal="true">
 			<div
-				class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+				class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+				in:fly={{ x: 200, duration: 300 }}
+				out:fly={{ x: -200, duration: 300 }}
 			>
 				<div class="flex items-center justify-between">
 					<a href="/" class="-m-1.5 p-1.5">
@@ -59,7 +65,11 @@
 							alt=""
 						/>
 					</a>
-					<button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" on:click={toggleMenu}>
+					<button
+						type="button"
+						class="-m-2.5 rounded-md p-2.5 text-gray-300 hover:text-white"
+						on:click={toggleMenu}
+					>
 						<span class="sr-only">Close menu</span>
 						<svg
 							class="h-6 w-6"
@@ -79,7 +89,8 @@
 							{#each items as item}
 								<a
 									href={item.href}
-									class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+									class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-300 hover:text-white"
+									on:click={toggleMenu}
 								>
 									{item.label}
 								</a>
@@ -87,10 +98,12 @@
 						</div>
 						<div class="py-6">
 							<a
-								href="/login"
-								class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-								>Contact Us</a
+								href="/contact"
+								class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-300 hover:text-white"
+								on:click={toggleMenu}
 							>
+								Contact Us
+							</a>
 						</div>
 					</div>
 				</div>
