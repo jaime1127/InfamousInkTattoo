@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { fly } from "svelte/transition";
+	import goldrust from '$lib/images/logo/goldrust.jpg'
+
 	let items = [
 		{ label: 'Locations', href: '/locations' },
 		{ label: 'Artists', href: '/artists' },
@@ -15,13 +18,12 @@
 
 <header class="absolute inset-x-0 top-0 z-50">
 	<nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-		<div class="flex lg:flex-1">
+		<div class="flex lg:flex-1 rounded-full">
 			<a href="/" class="-m-1.5 p-1.5">
-				<span class="sr-only">Your Company</span>
 				<img
-					class="h-8 w-auto"
-					src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-					alt=""
+					class="h-8 w-auto rounded-full"
+					src={goldrust}
+					alt="infamousInk"
 				/>
 			</a>
 		</div>
@@ -37,20 +39,10 @@
 		</div>
 		<button type="button" class="lg:hidden" on:click={toggleMenu}>
 			<span class="sr-only">Open menu</span>
-			<svg
-				class="h-6 w-6"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke-width="1.5"
-				stroke="currentColor"
-				aria-hidden="true"
-			>
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="M3.75 5.25h16.5m-16.5 7.5h16.5m-16.5 7.5h16.5"
-				/>
-			</svg>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+				<path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+			  </svg>
+			  
 		</button>
 	</nav>
 	{#if isMenuOpen}
