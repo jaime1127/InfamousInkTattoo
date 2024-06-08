@@ -32,8 +32,6 @@
               </li>
             </ul>
           </li>
-    
-          <!-- More people... -->
         </ul>
       </div>
     </div>

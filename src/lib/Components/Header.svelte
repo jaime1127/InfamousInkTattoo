@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
-	import goldrust from '$lib/images/logo/goldrust.jpg';
+	import { onMount } from 'svelte';
 	import infamous from '$lib/images/logo/infamous.png';
 
 	let items = [
@@ -11,14 +11,31 @@
 	];
 
 	let isMenuOpen = false;
+	let isScrolled = false;
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
+
+	function handleScroll() {
+		isScrolled = window.scrollY > 0;
+	}
+
+	onMount(() => {
+		if (typeof window !== 'undefined') {
+			window.addEventListener('scroll', handleScroll);
+		}
+
+		return () => {
+			if (typeof window !== 'undefined') {
+				window.removeEventListener('scroll', handleScroll);
+			}
+		};
+	});
 </script>
 
-<header class="absolute inset-x-0 top-0 z-50">
-	<nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+<header class="fixed inset-x-0 top-0 z-50 {isScrolled ? 'bg-black' : ''}">
+	<nav class="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
 		<div class="flex lg:flex-1 rounded-full">
 			<a href="/" class="-m-1.5 p-1.5">
 				<img class="h-8 w-auto rounded-full" src={infamous} alt="infamousInk" />
