@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
 	import goldrust from '$lib/images/logo/goldrust.jpg';
+	import infamous from '$lib/images/logo/infamous.png';
 
 	let items = [
 		{ label: 'Locations', href: '/locations' },
@@ -20,7 +21,7 @@
 	<nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
 		<div class="flex lg:flex-1 rounded-full">
 			<a href="/" class="-m-1.5 p-1.5">
-				<img class="h-8 w-auto rounded-full" src={goldrust} alt="infamousInk" />
+				<img class="h-8 w-auto rounded-full" src={infamous} alt="infamousInk" />
 			</a>
 		</div>
 		<div class="hidden lg:flex lg:gap-x-12 lg:justify-end">
@@ -57,13 +58,9 @@
 				out:fly={{ x: -200, duration: 300 }}
 			>
 				<div class="flex items-center justify-between">
-					<a href="/" class="-m-1.5 p-1.5">
+					<a href="/" class="-m-1.5 p-1.5" on:click={toggleMenu}>
 						<span class="sr-only">Your Company</span>
-						<img
-							class="h-8 w-auto"
-							src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-							alt=""
-						/>
+						<img class="h-8 w-auto" src={infamous} alt="" />
 					</a>
 					<button
 						type="button"
