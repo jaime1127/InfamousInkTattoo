@@ -1,0 +1,31 @@
+{
+    "Company": "Infamous Ink Tattoos and Piercing",
+    "Hero": "Crafting exquisite body art is our passion, setting us apart from the crowd. Our skilled artists transform your ideas into mesmerizing designs that reflect your unique style and personality. You are not just a canvas; you are a masterpiece waiting to be revealed. Embrace the elegance of custom tattoos and the allure of body piercing. Trust in our artistry to adorn you with the finest jewelry, dermals, and nostril piercings. Immerse yourself in the rich heritage of American traditional designs, or dare to stand out with a touch of creative brilliance.",
+    "Tampa": [
+        {
+            "Location Text": "Infamous Ink Tattoos and Piercing invites you to our distinguished shop located in Tampa, Florida's Westshore Plaza. Our establishment offers a sophisticated and upscale setting for all your tattoo and body piercing requirements.",
+            "Artist": {
+                "Jose": {
+                    "name": "John",
+                    "images": [""]
+                }
+            }
+        }
+    ],
+    "Volusia": [
+        {
+            "Location Text": "Infamous Ink is located in the Volusia Mall in Daytona. We are known for our professional services, offering the best custom tattoos and body piercings in the area. Our experienced artists specialize in a variety of styles, including neo-traditional, fine line, black and grey, bold colorful, and new school designs. Visit Infamous Ink today at the Volusia Mall for all your tattoo and piercing needs.",
+            "Artist": {}
+        }
+    ],
+    "Daytona": [
+        {
+            "Location Text": "",
+            "Artist": {
+                "John": {
+                    "name": "John Sinster"
+                }
+            }
+        }
+    ]
+}
