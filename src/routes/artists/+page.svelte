@@ -1,5 +1,5 @@
 <script>
-    import Jose from '$lib/images/Tampa/Jose.jpeg'
+    import Jose from '/images/Tampa/Jose Reapertats/Jose.jpeg'
   </script>
   
   <div class="bg-gray-900 py-24 sm:py-32">

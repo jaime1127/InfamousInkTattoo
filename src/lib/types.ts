@@ -1,7 +1,8 @@
 // src/lib/types.ts
 export interface Artist {
     name: string;
-    images: string[];
+    photo: string;
+    tattoos: string[];
 }
 
 export interface Location {

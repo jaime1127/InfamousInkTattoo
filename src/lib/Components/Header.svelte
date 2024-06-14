@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
-	import infamous from '$lib/images/logo/infamous.png';
+	import infamous from '/images/logo/infamous.png';
 
 	let items = [
 		{ label: 'Locations', href: '/locations' },

@@ -1,12 +1,11 @@
 import type { InfamousInkData } from '$lib/types';
+import type { PageLoad } from './$types';
 
-export const load = async () => {
-	const data = await (await import('$lib/data/infamousInkData.json')).default as InfamousInkData;
+export const load: PageLoad = async () => {
+	const data = (await (await import('$lib/data/infamousInkData.json')).default) as InfamousInkData;
 	return {
-		data: {
-            title: data.Company,
-            content: data.Tampa.Text,
-			image: data.Tampa.Artist[0].Betsy.images
-        }
+		title: data.Company,
+		content: data.Tampa.Text,
+		tattoos: data.Tampa.Artist[0].Jose.tattoos
 	};
 };

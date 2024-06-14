@@ -7,15 +7,23 @@
 			{
 				"Jose": {
 					"name": "John Reapertats",
-					"images": ["/images/Tampa/jose.jpeg"]
+					"photo": "/images/Tampa/Jose Reapertats/Jose.jpeg",
+					"tattoos": [
+						"/images/Daytona/John Sinster/Tattoos/tattoo1.jpg",
+						"/images/Daytona/John Sinster/Tattoos/tattoo2.jpg",
+						"/images/Daytona/John Sinster/Tattoos/tattoo3.jpg",
+						"/images/Daytona/John Sinster/Tattoos/tattoo4.jpg"
+					]
 				},
 				"Steve": {
 					"name": "Steve Mcalister",
-					"images": ["/images/Tampa/Steve Mcalister/Steve.jpeg"]
+					"photo": "/images/Tampa/Steve Mcalister/Steve.jpeg",
+					"tattoos": ["/images/Tampa/Steve Mcalister/Tattoos"]
 				},
 				"Betsy": {
 					"name": "Betsy Piercer",
-					"images": ["/images/Tampa/Betsy Piercer/Betsy.png"]
+					"photo": "/images/Tampa/Betsy Piercer/Betsy.png",
+					"tattoos": ["/images/Tampa/Steve Mcalister/Steve.jpeg"]
 				}
 			}
 		]
