@@ -1,5 +1,4 @@
 <script lang="ts">
-	// import tattoo2 from '/images/Daytona/John Sinster/Portfilio/tattoo2.jpg'
 	export let image: string[];
 </script>
 

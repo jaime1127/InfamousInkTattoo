@@ -1,5 +1,5 @@
 <script lang="ts">
-	import heroVid from '$lib/video/heroVideo.mp4';
+	import heroVid from '/video/heroVideo.mp4';
 	import infamous from '/images/logo/infamous.png';
 </script>
 
