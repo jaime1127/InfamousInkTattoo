@@ -13,11 +13,11 @@
 	let isMenuOpen = false;
 	let isScrolled = false;
 
-	function toggleMenu() {
+	async function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
 
-	function handleScroll() {
+	async function handleScroll() {
 		isScrolled = window.scrollY > 0;
 	}
 

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import heroVid from '/video/heroVideo.mp4';
 	import infamous from '/images/logo/infamous.png';
+	import heroVid from '$lib/video/heroVideo.mp4';
 </script>
 
 <section class="relative min-h-lvh">
