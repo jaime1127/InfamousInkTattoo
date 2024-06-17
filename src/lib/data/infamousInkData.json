@@ -47,11 +47,14 @@
 		"Artist": [
 			{
 				"John": {
-					"name": "John Reapertats",
+					"name": "John Sinster",
 					"photo": "/images/Daytona/John Sinster/john.jpg",
-					"location": "Volusia",
+					"location": "Daytona",
 					"tattoos": [
-						"/images/Tampa/Jose Reapertats/Tattoos/tattoo1.jpg"
+						"/images/Daytona/John Sinster/Tattoos/tattoo1.jpg",
+						"/images/Daytona/John Sinster/Tattoos/tattoo2.jpg",
+						"/images/Daytona/John Sinster/Tattoos/tattoo3.jpg",
+						"/images/Daytona/John Sinster/Tattoos/tattoo4.jpg"
 					]
 				}
 			}
