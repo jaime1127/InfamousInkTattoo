@@ -8,7 +8,6 @@
 	let items = [
 		{ label: 'Locations', href: '/locations' },
 		{ label: 'Artists', href: '/artists' },
-		{ label: 'Portfolio', href: '/portfolio' },
 		{ label: 'About Us', href: '/aboutus' },
 		{ label: 'Contact', href: '/aboutus' }
 	];

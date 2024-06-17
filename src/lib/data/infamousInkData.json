@@ -10,27 +10,42 @@
 					"photo": "/images/Tampa/Jose Reapertats/Jose.jpeg",
 					"tattoos": [
 						"/images/Tampa/Jose Reapertats/Tattoos/tattoo1.jpg",
-						"/images/Daytona/John Sinster/Tattoos/tattoo2.jpg",
-						"/images/Daytona/John Sinster/Tattoos/tattoo3.jpg",
-						"/images/Daytona/John Sinster/Tattoos/tattoo4.jpg"
+						"/images/Tampa/Jose Reapertats/Tattoos/tattoo2.jpg",
+						"/images/Tampa/Jose Reapertats/Tattoos/tattoo3.jpg",
+						"/images/Tampa/Jose Reapertats/Tattoos/tattoo4.jpg",
+						"/images/Tampa/Jose Reapertats/Tattoos/tattoo5.jpg",
+						"/images/Tampa/Jose Reapertats/Tattoos/tattoo6.jpg",
+						"/images/Tampa/Jose Reapertats/Tattoos/tattoo7.jpg",
+						"/images/Tampa/Jose Reapertats/Tattoos/tattoo8.jpg"
 					]
 				},
 				"Steve": {
 					"name": "Steve Mcalister",
 					"photo": "/images/Tampa/Steve Mcalister/Steve.jpeg",
-					"tattoos": ["/images/Tampa/Steve Mcalister/Tattoos"]
+					"tattoos": [
+						"/images/Tampa/Steve Mcalister/Tattoos/tattoo1.jpg",
+						"/images/Tampa/Steve Mcalister/Tattoos/tattoo2.jpg",
+						"/images/Tampa/Steve Mcalister/Tattoos/tattoo3.jpg",
+						"/images/Tampa/Steve Mcalister/Tattoos/tattoo4.jpg",
+						"/images/Tampa/Steve Mcalister/Tattoos/tattoo5.jpg",
+						"/images/Tampa/Steve Mcalister/Tattoos/tattoo6.jpg"
+					]
 				},
 				"Betsy": {
 					"name": "Betsy Piercer",
 					"photo": "/images/Tampa/Betsy Piercer/Betsy.png",
-					"tattoos": ["/images/Tampa/Steve Mcalister/Steve.jpeg"]
+					"tattoos": [
+						"/images/Tampa/Steve Mcalister/Steve.jpeg"
+					]
 				}
 			}
 		]
 	},
 	"Volusia": {
 		"Text": "Infamous Ink is located in the Volusia Mall in Daytona. We are known for our professional services, offering the best custom tattoos and body piercings in the area. Our experienced artists specialize in a variety of styles, including neo-traditional, fine line, black and grey, bold colorful, and new school designs. Visit Infamous Ink today at the Volusia Mall for all your tattoo and piercing needs.",
-		"Artist": [{}]
+		"Artist": [
+			{}
+		]
 	},
 	"Daytona": [
 		{
