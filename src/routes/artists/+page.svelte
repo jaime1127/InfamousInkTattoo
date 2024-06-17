@@ -12,6 +12,6 @@
 				We’re a dynamic group of individuals who are passionate about what we do.
 			</p>
 		</div>
-		<!-- <AritistTile image='/images/Tampa/Jose Reapertats/Jose.jpeg' /> -->
+
 	</div>
 </div>

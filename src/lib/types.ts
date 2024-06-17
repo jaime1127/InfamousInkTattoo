@@ -3,27 +3,17 @@ export interface Artist {
 	name: string;
 	photo: string;
 	tattoos: string[];
-	location: string
+	location: string;
 }
 
 export interface Location {
 	Text: string;
-	Artist: {
-		Jose: Artist;
-		Steve: Artist;
-		Betsy: Artist;
-	}[];
+	Artist: string[];
 }
 
 export interface InfamousInkData {
 	Company: string;
 	Hero: string;
 	Tampa: Location;
-	Volusia: Location;
-	Daytona: {
-		'Location Text': string;
-		Artist: {
-			John: Artist;
-		};
-	}[];
+	Daytona: Location;
 }
