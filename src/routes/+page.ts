@@ -5,7 +5,7 @@ export const load: PageLoad = async () => {
 	const data = (await (await import('$lib/data/infamousInkData.json')).default) as InfamousInkData;
 	return {
 		title: data.Company,
-		content: data.Tampa.Text,
+		content: data.Hero,
 		tattoos: data.Tampa.Artist[0].Jose.tattoos
 	};
 };

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
-	import infamous from '/images/logo/infamous.png';
 
 	let items = [
 		{ label: 'Locations', href: '/locations' },
@@ -38,7 +37,7 @@
 	<nav class="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
 		<div class="flex lg:flex-1 rounded-full">
 			<a href="/" class="-m-1.5 p-1.5">
-				<img class="h-8 w-auto rounded-full" src={infamous} alt="infamousInk" />
+				<img class="h-8 w-auto rounded-full" src='/images/logo/infamous.png' alt="infamousInk" />
 			</a>
 		</div>
 		<div class="hidden lg:flex lg:gap-x-12 lg:justify-end">
@@ -77,7 +76,7 @@
 				<div class="flex items-center justify-between">
 					<a href="/" class="-m-1.5 p-1.5" on:click={toggleMenu}>
 						<span class="sr-only">Your Company</span>
-						<img class="h-8 w-auto" src={infamous} alt="infamous ink logo" />
+						<img class="h-8 w-auto" src='/images/logo/infamous.png' alt="infamous ink logo" />
 					</a>
 					<button
 						type="button"

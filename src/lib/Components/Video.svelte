@@ -1,5 +1,4 @@
 <script lang="ts">
-	import infamous from '/images/logo/infamous.png';
 	import heroVid from '$lib/video/heroVideo.mp4';
 </script>
 
@@ -9,7 +8,7 @@
 	</video>
 	<div class="absolute inset-0 flex items-center justify-center">
 		<div class="text-center text-white self-center w-full md:w-3/4 lg:w-1/2">
-			<img src={infamous} alt="logo overlay" />
+			<img src='/images/logo/infamous.png' alt="logo overlay" />
 		</div>
 	</div>
 </section>

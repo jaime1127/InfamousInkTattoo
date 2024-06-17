@@ -9,4 +9,4 @@
 
 <Video />
 <Hero title={data.title} content={data.content} />
-<GridList image={data.tattoos}/>
+<GridList image={data.tattoos} />

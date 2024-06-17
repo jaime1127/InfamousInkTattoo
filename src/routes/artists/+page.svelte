@@ -1,5 +1,4 @@
 <script>
-    import Jose from '/images/Tampa/Jose Reapertats/Jose.jpeg'
     import AritistTile from '$lib/Components/AritistTile.svelte';
   </script>
   
