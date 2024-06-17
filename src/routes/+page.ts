@@ -6,6 +6,6 @@ export const load: PageLoad = async () => {
 	return {
 		title: data.Company,
 		content: data.Hero,
-		tattoos: data.Tampa.Artist[0].Steve.tattoos
+		tattoos: Object.values(data.Daytona.Artist[0])[0].tattoos
 	};
 };

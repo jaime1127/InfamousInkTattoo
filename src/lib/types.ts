@@ -1,14 +1,16 @@
 // src/lib/types.ts
 export interface Artist {
-	name: string;
-	photo: string;
-	tattoos: string[];
-	location: string;
+	[artistName: string]: {
+		name: string;
+		photo: string;
+		location: string;
+		tattoos: string[];
+	};
 }
 
 export interface Location {
 	Text: string;
-	Artist: string[];
+	Artist: Artist[];
 }
 
 export interface InfamousInkData {
