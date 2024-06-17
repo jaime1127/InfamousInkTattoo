@@ -1,12 +1,16 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
+	import ToogleMenu from '$lib/Svg/ToogleMenu.svelte';
+	import CloseMenu from '$lib/Svg/CloseMenu.svelte';
+	import Dropdown from './Dropdown.svelte';
 
 	let items = [
 		{ label: 'Locations', href: '/locations' },
 		{ label: 'Artists', href: '/artists' },
 		{ label: 'Portfolio', href: '/portfolio' },
-		{ label: 'About Us', href: '/aboutus' }
+		{ label: 'About Us', href: '/aboutus' },
+		{ label: 'Contact', href: '/aboutus' }
 	];
 
 	let isMenuOpen = false;
@@ -37,7 +41,7 @@
 	<nav class="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
 		<div class="flex lg:flex-1 rounded-full">
 			<a href="/" class="-m-1.5 p-1.5">
-				<img class="h-8 w-auto rounded-full" src='/images/logo/infamous.png' alt="infamousInk" />
+				<img class="h-8 w-auto rounded-full" src="/images/logo/infamous.png" alt="infamousInk" />
 			</a>
 		</div>
 		<div class="hidden lg:flex lg:gap-x-12 lg:justify-end">
@@ -46,24 +50,11 @@
 			{/each}
 		</div>
 		<div class="hidden lg:flex lg:flex-1 lg:justify-end">
-			<a href="/contact" class="text-sm font-semibold leading-6 text-white"
-				>Contact Us <span aria-hidden="true">&rarr;</span></a
-			>
+			<Dropdown />
 		</div>
 		<button type="button" class="lg:hidden text-gray-300 hover:text-white" on:click={toggleMenu}>
 			<span class="sr-only">Open menu</span>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				viewBox="0 0 24 24"
-				fill="currentColor"
-				class="size-6"
-			>
-				<path
-					fill-rule="evenodd"
-					d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
-					clip-rule="evenodd"
-				/>
-			</svg>
+			<ToogleMenu />
 		</button>
 	</nav>
 	{#if isMenuOpen}
@@ -76,7 +67,7 @@
 				<div class="flex items-center justify-between">
 					<a href="/" class="-m-1.5 p-1.5" on:click={toggleMenu}>
 						<span class="sr-only">Your Company</span>
-						<img class="h-8 w-auto" src='/images/logo/infamous.png' alt="infamous ink logo" />
+						<img class="h-8 w-auto" src="/images/logo/infamous.png" alt="infamous ink logo" />
 					</a>
 					<button
 						type="button"
@@ -84,16 +75,7 @@
 						on:click={toggleMenu}
 					>
 						<span class="sr-only">Close menu</span>
-						<svg
-							class="h-6 w-6"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="1.5"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-						</svg>
+						<CloseMenu />
 					</button>
 				</div>
 				<div class="mt-6 flow-root">
@@ -110,13 +92,7 @@
 							{/each}
 						</div>
 						<div class="py-6">
-							<a
-								href="/contact"
-								class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-300 hover:text-white"
-								on:click={toggleMenu}
-							>
-								Contact Us
-							</a>
+							<Dropdown />
 						</div>
 					</div>
 				</div>
