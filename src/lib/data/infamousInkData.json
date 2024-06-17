@@ -34,18 +34,14 @@
 				"Betsy": {
 					"name": "Betsy Piercer",
 					"photo": "/images/Tampa/Betsy Piercer/Betsy.png",
-					"tattoos": [
-						"/images/Tampa/Steve Mcalister/Steve.jpeg"
-					]
+					"tattoos": ["/images/Tampa/Steve Mcalister/Steve.jpeg"]
 				}
 			}
 		]
 	},
 	"Volusia": {
 		"Text": "Infamous Ink is located in the Volusia Mall in Daytona. We are known for our professional services, offering the best custom tattoos and body piercings in the area. Our experienced artists specialize in a variety of styles, including neo-traditional, fine line, black and grey, bold colorful, and new school designs. Visit Infamous Ink today at the Volusia Mall for all your tattoo and piercing needs.",
-		"Artist": [
-			{}
-		]
+		"Artist": [{}]
 	},
 	"Daytona": [
 		{

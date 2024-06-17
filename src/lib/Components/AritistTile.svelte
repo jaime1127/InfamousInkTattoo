@@ -2,7 +2,7 @@
 	export let image: string;
 	export let name: string;
 	export let location: string;
-    export let twitter:string;
+	export let twitter: string;
 </script>
 
 <ul

@@ -8,7 +8,7 @@
 	</video>
 	<div class="absolute inset-0 flex items-center justify-center">
 		<div class="text-center text-white self-center w-full md:w-3/4 lg:w-1/2">
-			<img src='/images/logo/infamous.png' alt="logo overlay" />
+			<img src="/images/logo/infamous.png" alt="logo overlay" />
 		</div>
 	</div>
 </section>

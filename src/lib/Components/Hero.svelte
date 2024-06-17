@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Dropdown from "./Dropdown.svelte";
+	import Dropdown from './Dropdown.svelte';
 	export let title: string;
 	export let content: string;
 </script>
