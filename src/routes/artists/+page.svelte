@@ -1,5 +1,7 @@
-<script>
+<script lang="ts">
 	import AritistTile from '$lib/Components/AritistTile.svelte';
+	import type { PageData } from './$types';
+	export let data: PageData;
 </script>
 
 <div class="bg-gray-900 py-24 sm:py-32">
@@ -10,6 +12,6 @@
 				We’re a dynamic group of individuals who are passionate about what we do.
 			</p>
 		</div>
-		<!-- <AritistTile/> -->
+		<!-- <AritistTile image='/images/Tampa/Jose Reapertats/Jose.jpeg' /> -->
 	</div>
 </div>

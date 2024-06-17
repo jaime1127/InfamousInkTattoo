@@ -3,6 +3,7 @@ export interface Artist {
 	name: string;
 	photo: string;
 	tattoos: string[];
+	location: string
 }
 
 export interface Location {

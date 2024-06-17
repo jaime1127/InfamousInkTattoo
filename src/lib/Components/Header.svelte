@@ -9,7 +9,7 @@
 		{ label: 'Locations', href: '/locations' },
 		{ label: 'Artists', href: '/artists' },
 		{ label: 'About Us', href: '/aboutus' },
-		{ label: 'Contact', href: '/aboutus' }
+		{ label: 'Contact', href: '/contact' }
 	];
 
 	let isMenuOpen = false;
