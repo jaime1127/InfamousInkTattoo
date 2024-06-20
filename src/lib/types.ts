@@ -19,6 +19,7 @@ export interface Location {
 export interface InfamousInkData {
 	Company: string;
 	Hero: string;
+	HeroImg: string;
 	Tampa: Location;
 	Daytona: Location;
 	PeachTree: Location;

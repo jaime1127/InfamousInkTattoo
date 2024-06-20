@@ -1,5 +1,7 @@
 <script lang="ts">
 	import heroVid from '$lib/video/heroVideo.mp4';
+
+	export let image: string | undefined = undefined;
 </script>
 
 <section class="relative min-h-lvh">
@@ -7,8 +9,10 @@
 		<source src={heroVid} type="video/mp4" />
 	</video>
 	<div class="absolute inset-0 flex items-center justify-center">
-		<div class="text-center text-white self-center w-full md:w-3/4 lg:w-1/2">
-			<img src="/images/logo/infamous.png" alt="logo overlay" />
-		</div>
+		{#if image}
+			<div class="text-center text-white self-center w-full md:w-3/4 lg:w-1/2">
+				<img src={image} alt="logo overlay" />
+			</div>
+		{/if}
 	</div>
 </section>

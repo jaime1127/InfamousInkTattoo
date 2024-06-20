@@ -1,6 +1,7 @@
 {
 	"Company": "Infamous Ink Tattoos and Piercing",
 	"Hero": "Crafting exquisite body art is our passion, setting us apart from the crowd. Our skilled artists transform your ideas into mesmerizing designs that reflect your unique style and personality. You are not just a canvas; you are a masterpiece waiting to be revealed. Embrace the elegance of custom tattoos and the allure of body piercing. Trust in our artistry to adorn you with the finest jewelry, dermals, and nostril piercings. Immerse yourself in the rich heritage of American traditional designs, or dare to stand out with a touch of creative brilliance.",
+	"HeroImg": "images/logo/infamous.png",
 	"Tampa": {
 		"Text": "Infamous Ink Tattoos and Piercing invites you to our distinguished shop located in Tampa, Florida's Westshore Plaza. Our establishment offers a sophisticated and upscale setting for all your tattoo and body piercing requirements.",
 		"storeFront": "images/Tampa/WestshorePlaza.JPG",

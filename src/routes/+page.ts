@@ -25,6 +25,7 @@ export const load: PageLoad = async () => {
 		tattoos,
 		piercing,
 		storeFront: data.VictoryDrive.storeFront,
-		google:data.VictoryDrive.google
+		google:data.VictoryDrive.google,
+		heroImg: data.HeroImg
 	};
 };

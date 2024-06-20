@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let title: string;
-	export let content: string;
-	export let img: string;
+	export let title: string | undefined = undefined;
+	export let content: string | undefined = undefined;
+	export let img: string | undefined = undefined;
 </script>
 
 <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
