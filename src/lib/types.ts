@@ -4,13 +4,16 @@ export interface Artist {
 		name: string;
 		photo: string;
 		location: string;
-		tattoos: string[];
+		tattoos?: string[];
+		piercing?: string[];
 	};
 }
 
 export interface Location {
 	Text: string;
 	Artist: Artist[];
+	storeFront?: string;
+	google?: string;
 }
 
 export interface InfamousInkData {
@@ -18,4 +21,6 @@ export interface InfamousInkData {
 	Hero: string;
 	Tampa: Location;
 	Daytona: Location;
+	PeachTree: Location;
+	VictoryDrive: Location;
 }

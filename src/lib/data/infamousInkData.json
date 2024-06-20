@@ -3,6 +3,8 @@
 	"Hero": "Crafting exquisite body art is our passion, setting us apart from the crowd. Our skilled artists transform your ideas into mesmerizing designs that reflect your unique style and personality. You are not just a canvas; you are a masterpiece waiting to be revealed. Embrace the elegance of custom tattoos and the allure of body piercing. Trust in our artistry to adorn you with the finest jewelry, dermals, and nostril piercings. Immerse yourself in the rich heritage of American traditional designs, or dare to stand out with a touch of creative brilliance.",
 	"Tampa": {
 		"Text": "Infamous Ink Tattoos and Piercing invites you to our distinguished shop located in Tampa, Florida's Westshore Plaza. Our establishment offers a sophisticated and upscale setting for all your tattoo and body piercing requirements.",
+		"storeFront": "images/Tampa/WestshorePlaza.JPG",
+		"google": "images/Tampa/google.png",
 		"Artist": [
 			{
 				"Jose": {
@@ -37,13 +39,25 @@
 					"name": "Betsy Piercer",
 					"photo": "/images/Tampa/Betsy Piercer/Betsy.png",
 					"location": "Tampa",
-					"tattoos": ["/images/Tampa/Steve Mcalister/Steve.jpeg"]
+					"piercing": [
+						"images/Tampa/Betsy Piercer/Piercings/Piercing1.png",
+						"images/Tampa/Betsy Piercer/Piercings/Piercing2.png",
+						"images/Tampa/Betsy Piercer/Piercings/Piercing3.png",
+						"images/Tampa/Betsy Piercer/Piercings/Piercing4.png",
+						"images/Tampa/Betsy Piercer/Piercings/Piercing5.png",
+						"images/Tampa/Betsy Piercer/Piercings/Piercing6.png",
+						"images/Tampa/Betsy Piercer/Piercings/Piercing7.png",
+						"images/Tampa/Betsy Piercer/Piercings/Piercing8.png",
+						"images/Tampa/Betsy Piercer/Piercings/Piercing9.png"
+					]
 				}
 			}
 		]
 	},
 	"Daytona": {
 		"Text": "Infamous Ink is located in the Volusia Mall in Daytona. We are known for our professional services, offering the best custom tattoos and body piercings in the area. Our experienced artists specialize in a variety of styles, including neo-traditional, fine line, black and grey, bold colorful, and new school designs. Visit Infamous Ink today at the Volusia Mall for all your tattoo and piercing needs.",
+		"storeFront": "images/Daytona/Store.jpg",
+		"google": "images/Tampa/google.png",
 		"Artist": [
 			{
 				"John": {
@@ -55,6 +69,135 @@
 						"/images/Daytona/John Sinster/Tattoos/tattoo2.jpg",
 						"/images/Daytona/John Sinster/Tattoos/tattoo3.jpg",
 						"/images/Daytona/John Sinster/Tattoos/tattoo4.jpg"
+					]
+				}
+			}
+		]
+	},
+	"PeachTree": {
+		"Text": "Infamous Ink proudly extends its exquisite body art and piercing services to Peachtree, located in the heart of Georgia. Our Peachtree location is renowned for its upscale, welcoming atmosphere and exceptional artistry. At Infamous Ink Peachtree, we transform your creative visions into breathtaking tattoos and unique piercings that showcase your individuality. Our team of highly skilled artists excels in a wide array of styles, from intricate fine line and black and grey realism to vibrant neo-traditional and bold colorful designs. Whether you're looking for a timeless piece of body art or a cutting-edge piercing, our Peachtree studio offers the highest quality and care.",
+		"storeFront": "images/PeachTree/store.jpg",
+		"google": "images/PeachTree/google.png",
+		"Artist": [
+			{
+				"Alley": {
+					"name": "Alley Cat",
+					"photo": "images/PeachTree/Alley Cat/Alley Cat.png",
+					"location": "Daytona",
+					"tattoos": [
+						"images/PeachTree/Alley Cat/Tattoos/Tattoo1.png",
+						"images/PeachTree/Alley Cat/Tattoos/Tattoo2.png",
+						"images/PeachTree/Alley Cat/Tattoos/Tattoo3.jpg",
+						"images/PeachTree/Alley Cat/Tattoos/Tattoo4.png",
+						"images/PeachTree/Alley Cat/Tattoos/Tattoo5.png",
+						"images/PeachTree/Alley Cat/Tattoos/Tattoo6.png",
+						"images/PeachTree/Alley Cat/Tattoos/Tattoo7.png",
+						"images/PeachTree/Alley Cat/Tattoos/Tattoo8.png"
+					]
+				},
+				"Chris": {
+					"name": "Chris Sage",
+					"photo": "images/PeachTree/Chris Sage/Chris Sage.png",
+					"location": "Peach Tree",
+					"tattoos": [
+						"images/PeachTree/Chris Sage/Tattoos/tattoo1.jpg",
+						"images/PeachTree/Chris Sage/Tattoos/tattoo2.jpg",
+						"images/PeachTree/Chris Sage/Tattoos/tattoo3.png",
+						"images/PeachTree/Chris Sage/Tattoos/tattoo4.png",
+						"images/PeachTree/Chris Sage/Tattoos/tattoo5.png",
+						"images/PeachTree/Chris Sage/Tattoos/tattoo6.png",
+						"images/PeachTree/Chris Sage/Tattoos/tattoo7.png",
+						"images/PeachTree/Chris Sage/Tattoos/tattoo8.png"
+					]
+				},
+				"Jables": {
+					"name": "Jables",
+					"photo": "images/PeachTree/Jables/Jables.png",
+					"location": "Peach Tree",
+					"tattoos": [
+						"images/PeachTree/Jables/Tattoos/tattoo1.jpg",
+						"images/PeachTree/Jables/Tattoos/tattoo2.png",
+						"images/PeachTree/Jables/Tattoos/tattoo3.png",
+						"images/PeachTree/Jables/Tattoos/tattoo4.png",
+						"images/PeachTree/Jables/Tattoos/tattoo5.png",
+						"images/PeachTree/Jables/Tattoos/tattoo6.png",
+						"images/PeachTree/Jables/Tattoos/tattoo7.png",
+						"images/PeachTree/Jables/Tattoos/tattoo8.png",
+						"images/PeachTree/Jables/Tattoos/tattoo9.png",
+						"images/PeachTree/Jables/Tattoos/tattoo10.png",
+						"images/PeachTree/Jables/Tattoos/tattoo11.png",
+						"images/PeachTree/Jables/Tattoos/tattoo12.png",
+						"images/PeachTree/Jables/Tattoos/tattoo13.jpg",
+						"images/PeachTree/Jables/Tattoos/tattoo14.jpg"
+					]
+				},
+				"Kelly": {
+					"name": "Kelly Piercer",
+					"photo": "images/PeachTree/Kelly Piercer/kelly.jpg",
+					"location": "Peach Tree",
+					"tattoos": [
+						"images/PeachTree/Kelly Piercer/Piercings/piercing1.jpg",
+						"images/PeachTree/Kelly Piercer/Piercings/piercing2.jpg",
+						"images/PeachTree/Kelly Piercer/Piercings/piercing3.jpg",
+						"images/PeachTree/Kelly Piercer/Piercings/piercing4.jpg",
+						"images/PeachTree/Kelly Piercer/Piercings/piercing5.jpg",
+						"images/PeachTree/Kelly Piercer/Piercings/piercing6.jpg",
+						"images/PeachTree/Kelly Piercer/Piercings/piercing7.jpg",
+						"images/PeachTree/Kelly Piercer/Piercings/piercing8.jpg",
+						"images/PeachTree/Kelly Piercer/Piercings/piercing9.jpg"
+					]
+				}
+			}
+		]
+	},
+	"VictoryDrive": {
+		"Text": "Infamous Ink is thrilled to bring its exceptional tattoo and piercing artistry to Victory Drive in Georgia. Located in this vibrant area, our Victory Drive studio offers a modern, upscale environment where creativity and professionalism converge. At Infamous Ink Victory Drive, we are dedicated to crafting stunning, custom body art and providing top-notch piercing services that celebrate your unique identity.",
+		"storeFront": "images/Victory Drive/store.png",
+		"google": "images/Victory Drive/google.png",
+		"Artist": [
+			{
+				"Jasmine": {
+					"name": "Jazzy",
+					"photo": "images/Victory Drive/Jasmine/Jazzy.jpg",
+					"location": "Victory Drive",
+					"tattoos": [
+						"images/Victory Drive/Jasmine/Tattoos/tattoo1.jpg",
+						"images/Victory Drive/Jasmine/Tattoos/tattoo2.jpg",
+						"images/Victory Drive/Jasmine/Tattoos/tattoo3.png",
+						"images/Victory Drive/Jasmine/Tattoos/tattoo4.jpg",
+						"images/Victory Drive/Jasmine/Tattoos/tattoo5.png",
+						"images/Victory Drive/Jasmine/Tattoos/tattoo6.jpg",
+						"images/Victory Drive/Jasmine/Tattoos/tattoo7.jpg"
+					]
+				},
+				"Mike": {
+					"name": "Mike Oswald",
+					"photo": "images/Victory Drive/Mike Oswald/Mike.jpg",
+					"location": "Victory Drive",
+					"tattoos": [
+						"images/Victory Drive/Mike Oswald/Tattoos/tattoo1.jpg",
+						"images/Victory Drive/Mike Oswald/Tattoos/tattoo2.jpg",
+						"images/Victory Drive/Mike Oswald/Tattoos/tattoo3.jpg",
+						"images/Victory Drive/Mike Oswald/Tattoos/tattoo4.jpg",
+						"images/Victory Drive/Mike Oswald/Tattoos/tattoo5.jpg",
+						"images/Victory Drive/Mike Oswald/Tattoos/tattoo6.jpg",
+						"images/Victory Drive/Mike Oswald/Tattoos/tattoo7.jpg",
+						"images/Victory Drive/Mike Oswald/Tattoos/tattoo8.jpg"
+					]
+				},
+				"Raashad": {
+					"name": "Raashad",
+					"photo": "images/Victory Drive/Raashad/raashad.jpg",
+					"location": "Victory Drive",
+					"tattoos": [
+						"images/Victory Drive/Raashad/Tattoos/tattoo1.jpg",
+						"images/Victory Drive/Raashad/Tattoos/tattoo2.jpg",
+						"images/Victory Drive/Raashad/Tattoos/tattoo3.jpg",
+						"images/Victory Drive/Raashad/Tattoos/tattoo4.jpg",
+						"images/Victory Drive/Raashad/Tattoos/tattoo5.jpg",
+						"images/Victory Drive/Raashad/Tattoos/tattoo6.jpg",
+						"images/Victory Drive/Raashad/Tattoos/tattoo7.jpg",
+						"images/Victory Drive/Raashad/Tattoos/tattoo8.jpg"
 					]
 				}
 			}
