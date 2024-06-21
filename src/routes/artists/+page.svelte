@@ -1,7 +1,14 @@
 <script lang="ts">
-	import AritistTile from '$lib/Components/AritistTile.svelte';
+	import ArtistTile from '$lib/Components/AritistTile.svelte';
 	import type { PageData } from './$types';
+
 	export let data: PageData;
+	let allArtists = [
+		...data.artists['tampa'],
+		...data.artists['daytona'],
+		...data.artists['peachTree'],
+		...data.artists['victoryLane']
+	];
 </script>
 
 <div class="bg-gray-900 py-24 sm:py-32">
@@ -12,8 +19,13 @@
 				We’re a dynamic group of individuals who are passionate about what we do.
 			</p>
 		</div>
-		<!-- {#each AritistTile as artist}
-			<AritistTile image={data.artists} />
-		{/each} -->
+		<ul
+			role="list"
+			class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+		>
+			{#each allArtists as artist}
+				<ArtistTile image={artist.photo} location={artist.location} name={artist.name} />
+			{/each}
+		</ul>
 	</div>
 </div>

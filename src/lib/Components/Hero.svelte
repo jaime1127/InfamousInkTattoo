@@ -4,7 +4,7 @@
 	export let img: string | undefined = undefined;
 </script>
 
-<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
+<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 lg:px-8">
 	<div class="mx-auto max-w-2xl text-center">
 		{#if title}
 			<h1 class="text-4xl font-bold tracking-tight text-gray-300 sm:text-6xl">{title}</h1>

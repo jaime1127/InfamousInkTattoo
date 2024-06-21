@@ -7,7 +7,7 @@
 	export let data: PageData;
 </script>
 
-<Video image={data.heroImg}/>
+<Video image={data.heroImg} />
 <Hero title={data.title} content={data.content} img={data.storeFront} />
 <!-- <GridList image={data.tattoos} /> -->
 
