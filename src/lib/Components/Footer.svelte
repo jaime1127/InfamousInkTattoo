@@ -34,7 +34,7 @@
 		<nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
 			{#each items as item}
 				<div class="pb-6">
-					<a href={item.href} class="text-sm leading-6 text-gray-400 hover:text-gray-900">
+					<a href={item.href} class="text-sm leading-6 text-gray-400 hover:text-gray-500">
 						{item.label}
 					</a>
 				</div>

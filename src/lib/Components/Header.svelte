@@ -45,7 +45,7 @@
 		</div>
 		<div class="hidden lg:flex lg:gap-x-12 lg:justify-end">
 			{#each items as item}
-				<a href={item.href} class="text-sm font-semibold leading-6 text-white">{item.label}</a>
+				<a href={item.href} class="text-sm font-semibold leading-6 text-gray-300">{item.label}</a>
 			{/each}
 		</div>
 		<div class="hidden lg:flex lg:flex-1 lg:justify-end">

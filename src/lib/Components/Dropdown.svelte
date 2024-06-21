@@ -16,8 +16,8 @@
 	let Locations = [
 		{ label: 'Tampa', href: '/' },
 		{ label: 'Daytona', href: '/' },
-		{ label: 'V', href: '/' },
-		{ label: 'V', href: '/' }
+		{ label: 'Peach Tree', href: '/' },
+		{ label: 'Victory Drive', href: '/' }
 	];
 </script>
 
@@ -37,7 +37,7 @@
 	</div>
 	{#if isMenuOpen}
 		<div
-			class="absolute right-0 z-10 mt-2 origin-top-right text-gray-400 bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+			class="absolute right-0 z-10 mt-2 origin-top-right text-gray-300 bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
 			role="menu"
 			aria-orientation="vertical"
 			aria-labelledby="menu-button"

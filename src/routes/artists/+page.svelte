@@ -12,6 +12,8 @@
 				We’re a dynamic group of individuals who are passionate about what we do.
 			</p>
 		</div>
-
+		<!-- {#each AritistTile as artist}
+			<AritistTile image={data.artists} />
+		{/each} -->
 	</div>
 </div>
