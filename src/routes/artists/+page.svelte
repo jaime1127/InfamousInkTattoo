@@ -3,12 +3,9 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
-	let allArtists = [
-		...data.artists['tampa'],
-		...data.artists['daytona'],
-		...data.artists['peachTree'],
-		...data.artists['victoryLane']
-	];
+
+	let artists = data.artists
+
 </script>
 
 <div class="bg-gray-900 py-24 sm:py-32">
@@ -23,8 +20,8 @@
 			role="list"
 			class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 		>
-			{#each allArtists as artist}
-				<ArtistTile image={artist.photo} location={artist.location} name={artist.name} />
+			{#each artists as artist}
+				<ArtistTile image={artist.photo} location={artist.location} name={artist.name} link={artist.name}/>
 			{/each}
 		</ul>
 	</div>
