@@ -4,7 +4,7 @@
 	</video>
 	<div class="absolute inset-0 flex justify-center self-center">
 		<img
-			class="w-3/4 sm:w-2/6 md:w-3/4 lg:w-1/2"
+			class="sm:w-2/6 md:w-3/4 lg:w-1/2"
 			loading="lazy"
 			src="images/logo/infamous.png"
 			alt="logo overlay"
