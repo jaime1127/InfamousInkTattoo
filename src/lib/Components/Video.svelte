@@ -3,7 +3,7 @@
 		<source src="video/heroVideo.mp4" type="video/mp4" />
 	</video>
 	<div class="absolute inset-0 flex justify-center items-center">
-		<div class="w-3/4 sm:w-2/6 md:w-3/4 lg:w-1/2 aspect-w-1 aspect-h-1">
+		<div class="w-3/4 lg:w-1/2 aspect-w-1 aspect-h-1">
 			<img
 				class="object-contain w-full h-full"
 				loading="lazy"
