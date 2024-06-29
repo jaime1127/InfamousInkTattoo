@@ -4,14 +4,9 @@
 
 	export let data: PageData;
 
-	let allALocations = [
-		data.locations.tampa,
-		data.locations.daytona,
-		data.locations.peachTree,
-		data.locations.victoryLaneStore
-	];
+	let locations = data.locations;
 </script>
 
-{#each allALocations as location}
+{#each locations as location}
 	<Hero title={location.location} content={location.address} img={location.storeFront} />
 {/each}

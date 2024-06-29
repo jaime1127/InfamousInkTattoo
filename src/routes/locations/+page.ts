@@ -4,28 +4,9 @@ import type { PageLoad } from './$types';
 export const load: PageLoad = async () => {
 	const data = (await import('$lib/data/infamousInkData.json')).default as InfamousInkData;
 
+	const allLocations = [data.Tampa, data.Daytona, data.PeachTree, data.VictoryDrive];
+
 	return {
-		locations: {
-			daytona: {
-				storeFront: data.Daytona.storeFront,
-				address: data.Daytona.address,
-				location: data.Daytona.location
-			},
-			tampa: {
-				storeFront: data.Tampa.storeFront,
-				address: data.Tampa.address,
-				location: data.Tampa.location
-			},
-			peachTree: {
-				storeFront: data.PeachTree.storeFront,
-				address: data.PeachTree.address,
-				location: data.PeachTree.location
-			},
-			victoryLaneStore: {
-				storeFront: data.VictoryDrive.storeFront,
-				address: data.VictoryDrive.address,
-				location: data.VictoryDrive.location
-			}
-		}
+		locations: allLocations
 	};
 };

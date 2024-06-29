@@ -17,13 +17,6 @@
 		link={data.artist?.name}
 	/>
 
-	<img
-		class="w-full md:w-3/4 lg:w-1/2"
-		loading="lazy"
-		src="images/Tampa/Betsy Piercer/Piercings/Piercing1.png"
-		alt="logo overlay"
-	/>
-
 	{#if artistTattoos.length > 0}
 		<GridList image={artistTattoos} />
 	{/if}

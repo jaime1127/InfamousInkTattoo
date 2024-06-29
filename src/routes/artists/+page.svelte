@@ -4,8 +4,7 @@
 
 	export let data: PageData;
 
-	let artists = data.artists
-
+	let artists = data.artists;
 </script>
 
 <div class="bg-gray-900 py-24 sm:py-32">
@@ -21,7 +20,12 @@
 			class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 		>
 			{#each artists as artist}
-				<ArtistTile image={artist.photo} location={artist.location} name={artist.name} link={artist.name}/>
+				<ArtistTile
+					image={artist.photo}
+					location={artist.location}
+					name={artist.name}
+					link={artist.name}
+				/>
 			{/each}
 		</ul>
 	</div>
