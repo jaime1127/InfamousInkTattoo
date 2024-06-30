@@ -1,5 +1,11 @@
-<section class="flex items-center justify-center min-h-screen">
-	<video class="absolute top-0 left-0 w-full h-full object-cover" autoplay loop muted playsinline>
+<section class="flex items-center justify-center min-h-lvh">
+	<video
+		class="absolute top-0 left-0 w-full h-full min-h-lvh object-cover"
+		autoplay
+		loop
+		muted
+		playsinline
+	>
 		<source src="video/heroVideo.mp4" type="video/mp4" />
 	</video>
 	<img
