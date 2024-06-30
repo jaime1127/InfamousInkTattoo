@@ -7,17 +7,12 @@
 		{
 			component: Facebook,
 			label: 'Facebook',
-			href: 'https://www.facebook.com'
+			href: 'https://www.facebook.com/realinfamousink'
 		},
 		{
 			component: Instagram,
 			label: 'Instagram',
-			href: 'https://www.instagram.com'
-		},
-		{
-			component: Twitter,
-			label: 'Twitter',
-			href: 'https://www.twitter.com'
+			href: 'https://www.instagram.com/realinfamousink/'
 		}
 	];
 </script>
