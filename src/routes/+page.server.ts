@@ -1,7 +1,7 @@
 import type { InfamousInkData } from '../types';
-import type { PageLoad } from './$types';
+import type { PageServerLoad } from './$types';
 
-export const load: PageLoad = async () => {
+export const load: PageServerLoad = async () => {
 	const data = (await (await import('$lib/data/infamousInkData.json')).default) as InfamousInkData;
 
 	return {
