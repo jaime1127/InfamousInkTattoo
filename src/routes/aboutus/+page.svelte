@@ -8,7 +8,7 @@
 <div class="bg-gray-900">
 	<main class="isolate">
 		<div class="overflow-hidden">
-			<div class="mx-auto max-w-7xl px-6 pb-32 sm:pt-32 lg:px-8">
+			<div class="mx-auto max-w-7xl px-6 pb-32 pt-32 sm:pt-32 lg:px-8">
 				<div class="mx-auto gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
 					<div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
 						<h1 class="text-4xl font-bold tracking-tight text-gray-300 sm:text-6xl">About Us</h1>
