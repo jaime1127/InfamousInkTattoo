@@ -2,7 +2,6 @@
 	import Faq from '$lib/Components/Faq.svelte';
 	import ImageSection from '$lib/Components/ImageSection.svelte';
 	import Values from '$lib/Components/Values.svelte';
-
 </script>
 
 <div class="bg-gray-900">
@@ -84,8 +83,8 @@
 				</div>
 			</div>
 		</div>
-		<ImageSection />
+		<ImageSection image="/images/PeachTree/Alley Cat/Tattoos/Tattoo1.png" />
 		<Values />
-		<Faq/>
+		<Faq />
 	</main>
 </div>

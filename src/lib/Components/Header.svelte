@@ -3,7 +3,6 @@
 	import { onMount } from 'svelte';
 	import ToogleMenu from '$lib/Svg/ToogleMenu.svelte';
 	import CloseMenu from '$lib/Svg/CloseMenu.svelte';
-	import Dropdown from './Dropdown.svelte';
 
 	let items = [
 		{ label: 'Locations', href: '/locations' },
@@ -43,14 +42,12 @@
 				<img class="h-8 w-auto rounded-full" src="/images/logo/infamous.png" alt="infamousInk" />
 			</a>
 		</div>
-		<div class="hidden lg:flex lg:gap-x-12 lg:justify-end">
+		<div class="hidden lg:flex lg:gap-x-12 lg:justify-center">
 			{#each items as item}
 				<a href={item.href} class="text-sm font-semibold leading-6 text-gray-300">{item.label}</a>
 			{/each}
 		</div>
-		<div class="hidden lg:flex lg:flex-1 lg:justify-end">
-			<Dropdown />
-		</div>
+		<div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
 		<button type="button" class="lg:hidden text-gray-300 hover:text-white" on:click={toggleMenu}>
 			<span class="sr-only">Open menu</span>
 			<ToogleMenu />
@@ -89,9 +86,6 @@
 									{item.label}
 								</a>
 							{/each}
-						</div>
-						<div class="py-6">
-							<Dropdown />
 						</div>
 					</div>
 				</div>

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Facebook from '$lib/Svg/Facebook.svelte';
 	import Instagram from '$lib/Svg/Instagram.svelte';
-	import Twitter from '$lib/Svg/Twitter.svelte';
 
 	let socials = [
 		{

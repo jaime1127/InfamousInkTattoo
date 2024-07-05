@@ -1,7 +1,11 @@
 <script lang="ts">
+	import type { SvelteComponent } from 'svelte';
+	import Button from './Button.svelte';
+
 	export let title: string | undefined = undefined;
 	export let content: string | undefined = undefined;
 	export let img: string | undefined = undefined;
+	export let button: typeof SvelteComponent<any>;
 </script>
 
 <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 lg:px-8">
@@ -15,7 +19,10 @@
 		<img
 			src={img}
 			alt="tattoo grid list"
-			class="pointer-events-none object-cover group-hover:opacity-75"
+			class="pointer-events-none object-cover group-hover:opacity-75 p-6"
 		/>
+		{#if button}
+			<Button text="Book Now" />
+		{/if}
 	</div>
 </div>
